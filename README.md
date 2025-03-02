@@ -1,4 +1,4 @@
-# Modulo 5 Ejercicio 3
+# Modulo 6 Ejercicio 1
 
 ## 📖 Descripción
 En este proyecto, los estudiantes deberán implementar Hooks para la gestión de estado y
