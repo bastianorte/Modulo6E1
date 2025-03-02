@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 550px) {
+    .header-style{
+        height: 500px;
+        background-color:#FBFBFB;
+        text-align: center;
+        padding: 50px 10px 10px 10px;
+      }
+  }
+
+  @media (min-width: 551px) and (max-width: 1200px) {
+    .header-style{
+        height: 450px;
+        background-color:#FBFBFB;
+        text-align: center;
+        padding: 50px 10px 10px 10px;
+      }
+  }
+  
+  @media (min-width: 1201px) {
+    .header-style{
+        height: 500px;
+        background-color:#FBFBFB;
+        text-align: center;
+        padding: 100px 10px 10px 10px;
+      }
+  }  
+  
+  .header-style h2{
+    font-size: 3rem;
+    font-weight: 600;
+  }  
+
+  .header-style p{
+    font-size: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }   
