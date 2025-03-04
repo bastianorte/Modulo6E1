@@ -1,21 +1,24 @@
-# Modulo 6 Ejercicio 1
+# Evaluacion Modulo 5 Ejercicio 1
 
 ## 📖 Descripción
-En este proyecto, los estudiantes deberán implementar Hooks para la gestión de estado y
-efectos secundarios, además de manejar errores y excepciones dentro del sistema del hospital.
-A lo largo del proyecto, integrarán el Hook de estado y el Hook de efecto para interactuar con
-los datos del hospital. También se les pedirá que creen un Hook personalizado y apliquen
-estrategias para la detección y manejo de errores dentro de la aplicación React.
+En este proyecto, los estudiantes deberán implementar el consumo de una API para obtener y
+mostrar datos del sistema del hospital, como la información de doctores o servicios médicos.
+Utilizando useEffect y useState, se espera que realicen peticiones asíncronas, gestionen el
+estado y manejen los errores de manera eficiente. Podrán utilizar Fetch API o Axios según su
+preferencia.
 
-## :no_entry: Accesos de Usuario
+![Inicio](public/assets/vista.png)
 
-#### Administrador (admin):
-        Usuario: admin
-        Contraseña: password
+## 🔴 Porque elegí Fetch API para el Consumo de la API
 
-#### Usuario (user):
-        Usuario: user
-        Contraseña: password
+Fetch API tiene algunas ventajas por sobre Axios como son 
+
+* No requiere instalar ninguna librería adicional.
+* Facilita el manejo de respuestas asíncronas.
+* Es más ligero al no requerir dependencias externas
+* Soporta de manera nativa los métodos como GET, POST, PUT, DELETE, etc.
+
+Para este proyecto, no se requieren algunas de las características adicionales que ofrece Axios, como el manejo de errores HTTP o la compatibilidad con navegadores desactualizados, como Internet Explorer.
 
 
 ## 📁 Proyecto
@@ -28,37 +31,26 @@ estrategias para la detección y manejo de errores dentro de la aplicación Reac
 │   │   └── **.jpg/png/svg/ico
 │   └── vite.svg
 ├── src
+│   ├── App.jsx
 │   ├── assets
 │   │   └── react.svg
 │   ├── components
-│   │   ├── ApiDoctores.tsx
-│   │   ├── ApiExample.tsx
-│   │   ├── AppointmentForm.tsx
-│   │   ├── CitaConfirmada.tsx
-│   │   ├── DoctorCard.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   ├── ProtectedRoute.tsx
-│   │   ├── ServiceList.tsx
-│   │   ├── WithMoreInfo.tsx
+│   │   ├── AppointmentForm.jsx
+│   │   ├── BotonPrueba.jsx
+│   │   ├── CitaConfirmada.jsx
+│   │   ├── DoctorCard.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── ServiceList.jsx
+│   │   ├── WithMoreInfo.jsx
 │   │   ├── doctores.json
-│   │   └── NavBar.tsx
-│   ├── context
-│   │   └── AuthContext.tsx
-│   ├── layout
-│   │   └── MainLayout.tsx
+│   │   └── NavBar.jsx
 │   ├── pages
-│   │   ├── Contacto.tsx
-│   │   ├── Equipo.tsx
-│   │   ├── Login.tsx
-│   │   └── Inicio.tsx
-│   ├── utils
-│   │   └── encryption.tsx
-│   ├── services
-│   │   └── api.js
+│   │   ├── Contacto.jsx
+│   │   ├── Equipo.jsx
+│   │   └── Inicio.jsx
 │   ├── index.css
-│   ├── App.tsx
-│   └── main.tsx
+│   └── main.jsx
 ├── README.md
 ├── eslint.config.js
 ├── index.html
@@ -77,13 +69,13 @@ estrategias para la detección y manejo de errores dentro de la aplicación Reac
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/bastianorte/Modulo5E3.git
+git clone https://github.com/bastianorte/Modulo5E1.git
 ```
 
 Navega hasta el directorio del proyecto:
 
 ```bash
-cd Modulo5E3
+cd Modulo5E1
 ```
 
 Instala las dependencias:
@@ -110,4 +102,5 @@ Abre `http://localhost:5173` en tu navegador para visualizar la aplicación.
 - **ReactRouter** - Herramienta que gestiona la navegación entre diferentes vistas en React.
 
 ## :pencil2: Autor
-Bastian Ortega
+Bastian Ortega Fuenzalida
+ 
