@@ -11,7 +11,7 @@ usuario, haciendo la aplicación instalable y accesible offline.
 ## 📁 Proyecto
 
 ```plaintext
-/Modulo4Ejercicio3
+/Modulo6E1
 │
 ├── public
 │   ├── assets
@@ -56,13 +56,13 @@ usuario, haciendo la aplicación instalable y accesible offline.
 Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/bastianorte/Modulo4Ejercicio3.git
+gh repo clone bastianorte/Modulo6E1
 ```
 
 Navega hasta el directorio del proyecto:
 
 ```bash
-cd Modulo4Ejercicio3
+cd Modulo6E1
 ```
 
 Instala las dependencias:
