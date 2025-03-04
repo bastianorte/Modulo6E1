@@ -1,11 +1,10 @@
-# Evaluacion Modulo 5 Ejercicio 1
+# Evaluacion Modulo 6 Ejercicio 1
 
 ## 📖 Descripción
-En este proyecto, los estudiantes deberán implementar el consumo de una API para obtener y
-mostrar datos del sistema del hospital, como la información de doctores o servicios médicos.
-Utilizando useEffect y useState, se espera que realicen peticiones asíncronas, gestionen el
-estado y manejen los errores de manera eficiente. Podrán utilizar Fetch API o Axios según su
-preferencia.
+En este ejercicio práctico, los estudiantes integrarán características básicas de una PWA
+(Progressive Web Application) en el proyecto de la web del hospital. El objetivo es configurar
+el archivo de manifiesto y registrar un Service Worker para mejorar la experiencia del
+usuario, haciendo la aplicación instalable y accesible offline.
 
 ![Inicio](public/assets/vista.png)
 
