@@ -8,18 +8,6 @@ usuario, haciendo la aplicación instalable y accesible offline.
 
 ![Inicio](public/assets/vista.png)
 
-## 🔴 Porque elegí Fetch API para el Consumo de la API
-
-Fetch API tiene algunas ventajas por sobre Axios como son 
-
-* No requiere instalar ninguna librería adicional.
-* Facilita el manejo de respuestas asíncronas.
-* Es más ligero al no requerir dependencias externas
-* Soporta de manera nativa los métodos como GET, POST, PUT, DELETE, etc.
-
-Para este proyecto, no se requieren algunas de las características adicionales que ofrece Axios, como el manejo de errores HTTP o la compatibilidad con navegadores desactualizados, como Internet Explorer.
-
-
 ## 📁 Proyecto
 
 ```plaintext
